@@ -2,7 +2,7 @@
 
 *Purpose of this tool is to analyze process log files created by the previous script*
 
-- Create analyze.sh with the following content and provide execute permission with chmod +x regcron.sh
+- Create analyze.sh with the following content and provide execute permission with chmod +x analyze.sh
 
 ```
 #!/bin/sh
