@@ -15,7 +15,9 @@ crontab < '$tmp'
 
 - run ./regcron.sh to create process log directory and install the cronjob.
 
-- Once we are done with the analysis(enough process log files) create unregcron.sh with the following and provide execute permission with chmod +x unregcron.sh
+- Once we are done with the logging(enough process log files), [use](analyze.md) script to continue the analysis.
+
+- Once we are done with the analysis, create unregcron.sh with the following and provide execute permission with chmod +x unregcron.sh
 
 - Take a backup of the proc_log directory.
 
@@ -27,3 +29,4 @@ crontab -r
 ```
 
 - run ./unregcron.sh to remove process log directory and remove the cronjob.
+
